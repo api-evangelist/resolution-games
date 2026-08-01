@@ -1,8 +1,12 @@
 aid: resolution-games
 name: Resolution Games
-description: 'Resolution Games is a company surfaced as a portfolio company of creandum, gv, partech and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Resolution Games is a Stockholm-based studio building games for virtual,
+  augmented, and mixed reality platforms including Meta Quest, Apple Vision Pro, and
+  PlayStation VR. Its titles include Demeo, Spatial Ops, Blaston, Bait!, and Ultimechs.
+  The company is venture-backed (Creandum, GV, Partech) and runs a consumer-facing
+  games business. It publishes no public developer API, SDK, or developer portal;
+  this API Evangelist profile tracks its public web properties (blog, support, legal
+  pages) for discovery and enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/resolution-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +16,30 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.resolutiongames.com/favicon.ico
 tags:
 - Company
 - Consumer
+- Games
+- Gaming
+- Virtual Reality
+- Augmented Reality
+- Mixed Reality
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.resolutiongames.com/
+- type: Blog
+  url: https://resolutiongames.com/blog
+- type: Support
+  url: https://resolutiongames.zendesk.com
+- type: TermsOfService
+  url: https://resolutiongames.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://resolutiongames.com/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
